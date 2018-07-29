@@ -1,1 +1,20 @@
-Spirng Project
+Spring Project
+For Java developers, the spring framework is a platform that makes developing rich and complex software projects a more manageable process.
+ Spring helps development teams everywhere build simple, portable, fast and flexible JVM-Based systems and applications.
+ Spring framework going to help us to reduce the complexities in our application configuration. Spring is going to do things like help us to build up the actual infrastructure of the application and leave us as developers to focus with the actual business of the app, to go ahead and implement the actual business requirements that our applications are trying to accomplish.
+ 
+As a very simple example of that, once we do use the spring framework in the way that it was intended, we are basically going to be able to automatically reduce dependencies in our application in our Java Project and keeping our application our software as robust as possible.
+
+So when we build our applications with Spring, we basically get to take advantage of a lot of the best practices and design patterns that the Spring framework has built right in.
+
+So even though as a beginner or a novice developer, I may not understand what a design pattern like the FACTORY PATTERN or the SINGLETON PATTERN what they are all about and what the benefits are of using those patterns.
+
+If I use the Spring framework for my java application, I can know with a certain degree of confidence that even though I don’t understand these patterns the framework has these patterns build in and they are going to work for me.
+
+So the Spring framework itself is broken up into pieces or modules and depending on what it is you are trying to accomplish with your java application you will just grab the pieces or the modules that you need. Some of the very popular modules that are being used , the framework is going to help or going to be used a lot, to help build java based web applications.
+So if you are building a web application and it’s a model-view-controller type web application , the Spring framework is going to able to step in there and help you to create that kind of web application much more easily.
+Spring framework mainly used as a way to access and manage db transactions in Java programs so if you are building a complex Java program that has a lot of db interaction going on , the spring framework has functionally in there to abstract out the complexities of working with the database. So again you can focus on what is that you are trying to do, the actual business requirements that you are trying to meet.
+
+1. You are always going to go for the SPRING CORE , everything  else is built on top of the Spring core.
+2. Spring is modular by design.
+3. Spring is trying to basically attempt to make the creation of your Java programs a more steam lined process and that infrastructure support is going to come in , in the form of projects, where those projects are basically going to try to address specific common requirements that come up in a Java development.
