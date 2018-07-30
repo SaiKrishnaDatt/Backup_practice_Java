@@ -1,6 +1,6 @@
 First Spirng Boot project.
 
-If port 8080 is already in run below commands:
+If port 8080 is already in use then run below commands:
     netstat -ano | findstr :8080
     taskkill /pid 2364 /F
 
