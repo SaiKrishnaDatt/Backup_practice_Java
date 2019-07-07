@@ -1,0 +1,20 @@
+First Spirng Boot project.
+
+If port 8080 is already in use then run below commands:
+    netstat -ano | findstr :8080
+    taskkill /pid 2364 /F
+
+Even after downloading -actuator dependencies if you still find white labeled errors for below URLs then clear maven local repository. 
+    http://localhost:8080/actuator/
+    
+            output: {"_links":{"self":{"href":"http://localhost:8080/actuator","templated":false},"health":               {"href":"http://localhost:8080/actuator/health","templated":false},"info":{"href":"http://localhost:8080/actuator/info","templated":false}}}
+
+
+
+    http://localhost:8080/actuator/health
+            output: {"status":"UP"}
+    
+    
+    
+    http://localhost:8080/actuator/info
+            output: {}
